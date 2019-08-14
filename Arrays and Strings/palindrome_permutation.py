@@ -1,3 +1,9 @@
+#input: a string
+#output: boolean whether the string is a permutation of a palindrome
+
+#Run instructions:
+#python3 palindrome_permutation.py str1
+
 import sys
 
 def main(s: str):

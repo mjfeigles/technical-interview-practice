@@ -1,3 +1,9 @@
+#input: a string (with extra space for "url spaces")and the actual string length
+#output: string with %20 replacing every space in original string
+
+#Run instructions:
+#python3 URLify.py str1 length1
+
 import sys
 
 
