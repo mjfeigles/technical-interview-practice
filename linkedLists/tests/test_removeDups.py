@@ -1,7 +1,10 @@
-import sys, os
-
 import unittest
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from linkedLists.solutions import removeDups
+
+class TestRemoveDups(unittest.TestCase):
+    def test_foo(self):
+        self.assertEqual(removeDups.foo(), 6)
 
 if __name__ == "__main__":
+    unittest.main()
 

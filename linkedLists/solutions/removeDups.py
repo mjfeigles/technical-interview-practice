@@ -5,14 +5,14 @@ output: the same unsorted linked list without duplicates
 Run instructions:
 python3 remove_dups.py head
 Note: head is the head node
-"""
+
 import sys
 
 class Node:
     def __init__(self, value):
         self.next = None
         self.value = value
-
+"""
 def remove_dups(head):
     if head is None or head.next is None:
         return head
@@ -30,6 +30,6 @@ def remove_dups(head):
 
     return head
 
-
-if __name__ == "__main__":
-    remove_dups(sys.argv[1])
+def foo():
+    print("bonjour")
+    return 5
