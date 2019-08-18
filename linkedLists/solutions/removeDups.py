@@ -27,7 +27,7 @@ def remove_dups(head):
             map[current.next.value] = 1
         current = current.next
 
-    print(map.keys())
+    # print(map.keys())
 
     return head
 
