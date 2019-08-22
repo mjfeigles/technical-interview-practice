@@ -1,6 +1,8 @@
 """
 Run instructions (for all tests from top directory):
-python3 -m unittest discover -s ./linkedLists/tests
+python3 -m unittest discover -s ./linkedLists/tests -v
+
+*tests intended for visual check
 
 Tests solutions to linkedList problems--> prints output for visual check
 """
