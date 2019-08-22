@@ -2,8 +2,10 @@
 input: an unsorted linked list
 output: the same unsorted linked list without duplicates
 
-Run instructions:
-python3 remove_dups.py head
+Run instructions: --- currently no main method in removeDups.py
+* see ../tests/test_removeDups.py to test file methods
+
+
 Note: head is the head node
 """
 import sys

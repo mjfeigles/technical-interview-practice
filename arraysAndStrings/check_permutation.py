@@ -30,6 +30,5 @@ def check_permutation(str1: str, str2: str):
     return True
 
 
-
 if __name__ == "__main__":
     check_permutation(sys.argv[1], sys.argv[2])

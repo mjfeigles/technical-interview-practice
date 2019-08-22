@@ -1,9 +1,10 @@
-#input: two strings
-#output: boolean if those strings can be made the same by adding, removing, or changing a character
+"""
+input: two strings
+output: boolean if those strings can be made the same by adding, removing, or changing a character
 
-#Run instructions:
-#python3 oneAway.py str1 str2
-
+Run instructions:
+python3 oneAway.py str1 str2
+"""
 import sys
 
 

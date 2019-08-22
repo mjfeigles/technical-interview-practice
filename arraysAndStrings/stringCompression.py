@@ -1,8 +1,11 @@
-#input: a string
-#output: min(compressed string, original string)
+"""
+input: a string
+output: min(compressed string, original string)
 
-#Run instructions:
-#python3 stringCompression.py str
+Run instructions:
+python3 stringCompression.py str
+"""
+
 
 import sys
 
